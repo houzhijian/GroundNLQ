@@ -14,7 +14,7 @@ This repo supports data pre-processing, training and evaluation of the Ego4D-NLQ
 
 
 ## Changelog
-* [Todo] Will release features and datas soon.
+* [2024.01.22] We release the **pretrained weights and some checkpoints**.
 * [2023.07.08] We release the GroundNLQ codebase.
 * [2023.06.19] GroundNLQ model won [**1st place**](https://eval.ai/web/challenges/challenge-page/1629/overview)@ [Ego4D NLQ Challenge 2023](https://ego4d-data.org/workshops/cvpr23/), hosted by CVPR 2023.
 
@@ -44,7 +44,7 @@ This repo supports data pre-processing, training and evaluation of the Ego4D-NLQ
 ### Prepare-offline-data
 * We leverage the extracted egocentric InterVideo and EgoVLP features and CLIP textual token features, please refer to [Feature_Extraction_RM](./feature_extraction/README.md).
 * Please refer to [File_Precess_RM](./ego4d_data/README.md) and [Narration_Precess_RM](./ego4d_data_narration/README.md).
-* Download the Ego4D-NLQ data, including files, features, pretrained weights. **Will release this data soon.**
+* Download the Ego4D-NLQ and model data, including files, features, pretrained-weights, checkpoints. (https://drive.google.com/file/d/1tyrVLcs0m0svA6TZpubX_VlpjAvLU18F/view?usp=sharing) (about 10G). 
 
 
 
