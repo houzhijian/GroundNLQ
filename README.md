@@ -113,6 +113,7 @@ bash tools/inference_ego4d_nlq.sh CONFIG_FILE CHECKPOINT_PATH CUDA_DEVICE_ID
 where `CHECKPOINT_PATH` is the path to the saved checkpoint.
 
 * The results (Recall@K at IoU = 0.3 or 0.5) on the val. set should be similar to the performance of the below table reported in the main report.
+* Note that the best performance is not at the final epoch but at the middle epoch.
 
 | Metric \  Method         | R@1 IoU=0.3 | R@5 IoU=0.3 | R@1 IoU=0.5 | R@5 IoU=0.5   |
 |--------------------------|-------------|-------------|-------------|---------------|
